@@ -20,9 +20,6 @@ main{
   justify-content: center;
 }
 
-.ero{
-  background-color: yellow ;
-}
 header .head-container .top{
   padding: 0px 9px;
   width: 800px;
@@ -59,4 +56,9 @@ header nav ul a{
   height: 240px;
   width: 688px;
   background-color: palevioletred;
+}
+.row{
+  height: 240px;
+  width: 688px;
+  background-color: rgb(147, 112, 216);
 }
