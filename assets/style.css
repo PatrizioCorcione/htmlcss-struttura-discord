@@ -4,16 +4,9 @@
   box-sizing: border-box;
 }
 
-header{
-  width: 1300px;
 
-}
-main{
-  width: 1300px;
-}
 .head-container{
   background-color: aqua;
-  width: 1301px;
   padding: 11px;
   display: flex;
   justify-content: center;
@@ -23,7 +16,7 @@ header .head-container .top{
   padding: 0px 9px;
   width: 800px;
   display: flex; 
-  background-color: blueviolet;
+  background-color: #daa520;
   justify-content: space-between;
   align-items: center;
 }
@@ -49,7 +42,7 @@ header nav ul a{
   height: 317px;
   align-items: center;
   display: flex;
-  background-color: brown;
+  background-color: #00008b;
 }
 .hero{
   height: 225px;
@@ -59,7 +52,7 @@ header nav ul a{
 
 .row-container{
   height: 320px;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +72,7 @@ header nav ul a{
 
 .row-revers-container{
   height: 320px;
-  background-color: rgb(255, 255, 255);
+  background-color: #d3d3d3;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -105,7 +98,7 @@ header nav ul a{
 .container-top-foot{
   height: 370px;
   display: flex;
-  background-color: black;
+  background-color: #23272a;
   justify-content: center;
   align-items: center;
 
@@ -121,11 +114,11 @@ header nav ul a{
 .top-foot-blu{
   background-color: darkcyan;
   height: 350px;
-  width: 120px;
+  width: 150px;
 }
 .container-bot-foot{
+  background-color: #7fffd4;
   width: 800px;
-  background-color: rgb(15, 15, 15);
   display: flex;
   height: 30px;
   justify-content: space-between;
@@ -133,7 +126,17 @@ header nav ul a{
 }
 
 .footer-conteiner{
+  background-color: #23272a;
   display: flex;
-  width: 1300px;
   justify-content: center;
+}
+
+.logo{
+  padding: 3px;
+  background-color: #a18989;
+}
+
+.bottone{
+  padding: 3px;
+  background-color: #a18989;
 }
