@@ -76,3 +76,14 @@ header nav ul a{
   height: 275px;
   width: 275px;
 }
+
+.row-revers-container{
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+
+}
+
