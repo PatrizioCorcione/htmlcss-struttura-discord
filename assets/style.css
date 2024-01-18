@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 1300px;
+
+}
+main{
+  background-color: chartreuse;
+  width: 1300px;
+}
+.head-container{
+  background-color: aqua;
+  width: 1301px;
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.ero{
+  background-color: yellow ;
+}
+header .head-container .top{
+  padding: 0px 9px;
+  width: 800px;
+  display: flex; 
+  background-color: blueviolet;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header .head-container .top nav{
+  width: 225px;
+}
+
+header nav ul{
+  display: flex;
+
+  list-style: none;
+}
+
+header nav ul a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.hero-container{
+  justify-content: center;
+  height: 317px;
+  align-items: center;
+  display: flex;
+  background-color: brown;
+}
+.hero{
+  height: 240px;
+  width: 688px;
+  background-color: palevioletred;
+}
