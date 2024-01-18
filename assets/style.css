@@ -4,15 +4,14 @@
   box-sizing: border-box;
 }
 
-
-.head-container{
+.head-container {
   background-color: aqua;
   padding: 11px;
   display: flex;
   justify-content: center;
 }
 
-header .head-container .top{
+.top{
   padding: 0px 9px;
   width: 800px;
   display: flex; 
@@ -22,28 +21,14 @@ header .head-container .top{
 }
 
 
-header .head-container .top nav{
-  width: 225px;
-}
-
-header nav ul{
-  display: flex;
-
-  list-style: none;
-}
-
-header nav ul a{
-  text-decoration: none;
-  display: inline-block;
-  padding: 5px 10px;
-}
-.hero-container{
+.hero-container {
   justify-content: center;
   height: 317px;
   align-items: center;
   display: flex;
   background-color: #00008b;
 }
+
 .hero{
   height: 225px;
   width: 510px;
@@ -62,15 +47,16 @@ header nav ul a{
 .azz-row{
   background-color: rgb(0, 179, 255);
   height: 275px;
-  width: 332px;
+  width: 450px;
 }
+
 .pink-row{
   background-color: rgb(219, 117, 205);
   height: 275px;
-  width: 275px;
+  width: 350px;
 }
 
-.row-revers-container{
+.row-revers-container {
   height: 320px;
   background-color: #d3d3d3;
   display: flex;
@@ -80,7 +66,7 @@ header nav ul a{
 
 }
 
-.bot-hero-container{
+.bot-hero-container {
   justify-content: center;
   height: 600px;
   align-items: center;
@@ -88,7 +74,7 @@ header nav ul a{
   background-color: rgb(208, 201, 201);
 }
 
-.bot-hero{
+.bot-hero {
   height: 550px;
   width: 800px;
   background-color: rgb(40, 182, 61);
@@ -108,7 +94,7 @@ header nav ul a{
   background-color: darksalmon;
   height: 350px;
   width: 200px;
-
+  
 }
 
 .top-foot-blu{
@@ -116,6 +102,7 @@ header nav ul a{
   height: 350px;
   width: 150px;
 }
+
 .container-bot-foot{
   background-color: #7fffd4;
   width: 800px;
@@ -139,4 +126,20 @@ header nav ul a{
 .bottone{
   padding: 3px;
   background-color: #a18989;
+}
+
+nav{
+  width: 225px;
+}
+
+header nav ul{
+  display: flex;
+
+  list-style: none;
+}
+
+header nav ul a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
 }
